@@ -1,0 +1,38 @@
+(footprint "RCL_C0805K" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Ceramic Chip Capacitor KEMET 0805 reflow solder</b><p>\nMetric Code Size 2012")
+  (fp_text reference "REF**" (at -1 -0.875) (layer "F.SilkS")
+      (effects (font (size 0.93472 0.93472) (thickness 0.08128)) (justify left bottom))
+    (tstamp a5ff875f-65e5-4dad-a783-f0855d71e64d)
+  )
+  (fp_text value "RCL_C0805K" (at -1 1.9) (layer "F.Fab")
+      (effects (font (size 0.93472 0.93472) (thickness 0.08128)) (justify left bottom))
+    (tstamp 6c1ee0e0-64c2-4174-a865-373d5c0bc11a)
+  )
+  (fp_line (start -0.925 -0.6) (end 0.925 -0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 7c371cb1-b53f-47c6-b172-8ab39148e3da))
+  (fp_line (start 0.925 0.6) (end -0.925 0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp b695bb66-6a82-4e79-831a-add8ba43daf5))
+  (fp_poly
+    (pts
+      (xy -1 0.65)
+      (xy -0.5 0.65)
+      (xy -0.5 -0.65)
+      (xy -1 -0.65)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 751b252e-7467-4ee7-b461-fdb60c6a87e9))
+  (fp_poly
+    (pts
+      (xy 0.5 0.65)
+      (xy 1 0.65)
+      (xy 1 -0.65)
+      (xy 0.5 -0.65)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 593bf640-5591-4f9a-a2f2-11150c6fd979))
+  (pad "1" smd rect (at -1 0) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp 21c377c0-5a39-461f-9f52-33f7c5cb8489))
+  (pad "2" smd rect (at 1 0) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp 99abe0a4-5bac-4777-a381-3cdcfdebd79a))
+)
