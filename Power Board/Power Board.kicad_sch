@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1d5e71b2-b497-42fe-88f7-faca2c63d866)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "University Rover Challenge\nPrinceton University" (at 178.054 179.451 0)
+    (effects (font (face "KiCad Font") (size 3.81 3.81) bold) (justify left bottom))
+    (uuid 0a18f4c3-53b9-444f-8900-6555848e2997)
+  )
+  (text "1" (at 268.478 194.056 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1c32ded8-e5c0-4f70-8d23-245bcdd5d376)
+  )
+  (text "Power Board" (at 186.817 190.373 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 674e5f37-1361-40f7-a4da-6a6397f83e1f)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
