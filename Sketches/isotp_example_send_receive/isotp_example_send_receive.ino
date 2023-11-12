@@ -6,7 +6,7 @@ FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> Can1;
 
 void myCallback(const ISOTP_data &config, const uint8_t *buf) {
     Serial.print("ID: ");
-    Serial.print(config.id, HEX);
+    Serial.print(config.id, HEX);   
     Serial.print("\tLEN: ");
     Serial.print(config.len);
     Serial.print("\tFINAL ARRAY: ");
@@ -55,7 +55,7 @@ void loop() {
         config.flags.extended = 0; /* standard frame */
         config.separation_time = 10; /* time between back-to-back frames in millisec */
         tp.write(config, buf, sizeof(buf));
-        tp.write(config, b, sizeof(b));
+        // tp.write(config, b, sizeof(b));
         sendTimer = millis();
     }
 }
