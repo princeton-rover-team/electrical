@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS37010LLZATR-050B5
+D 450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package
+K
+F https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet
+$ENDCMP
+#
+#End Doc Library

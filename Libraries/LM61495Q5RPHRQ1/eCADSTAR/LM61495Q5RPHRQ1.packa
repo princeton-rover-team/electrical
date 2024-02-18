@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM61495Q5RPHRQ1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-07-08:45:12)
+    (mountForm default
+        (footprintRef "LM61495Q5RPHRQ1")
+        (spec "System")
+    )
+)

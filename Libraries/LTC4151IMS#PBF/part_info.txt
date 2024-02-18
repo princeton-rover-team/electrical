@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LTC4151IMS#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=2.1
+Released=2017-05-05 10:17:32
+Downloaded=2024-02-11 21:36:52
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM61495Q5RPHRQ1
+D 10-A automotive buck converter optimized for power density and low EMI
+K
+F https://www.ti.com/lit/ds/symlink/lm61495-q1.pdf?utm_campaign=myTI-newsletter-2021-04-06.html&utm_content=LM61495-Q1_newproduct_04_05_2021&utm_medium=email&utm_source=Eloqua&ts=1617703610128
+$ENDCMP
+#
+#End Doc Library

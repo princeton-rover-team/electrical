@@ -1,0 +1,9 @@
+Manufacturer=Allegro Microsystems
+PartNumber=ACS37010LLZATR-050B5
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=3.3
+Released=2023-03-17 13:01:19
+Downloaded=2024-02-04 21:55:49
+3D=Y

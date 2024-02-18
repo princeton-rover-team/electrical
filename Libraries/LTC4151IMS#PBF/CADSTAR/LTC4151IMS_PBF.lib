@@ -1,0 +1,16 @@
+.LTC4151IMS_PBF :1 ;Linear Technology LTC4151IMS#PBF, Dual Voltage Detector, 7  80 V, 10-Pin MSOP
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="SENSE+" 2="VIN" 3="ADR1" 4="ADR0" 5="ADIN" 6="SCL" 7="SDA" 8="'SHDN'" 9="GND" 10="SENSE-"
+*MXP 10
+*DFN LTC4151IMS_PBF
+~!Mouser Part Number (584-LTC4151IMS#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4151IMSPBF?qs=hVkxg5c3xu%2F2n6Fpk%2FlWrA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LTC4151IMS#PBF)
+~!Link Datasheet (http://www.linear.com/docs/26089)
+~!Height (1.1mm)
+~!3D_Model (LTC4151IMS#PBF)
+LTC4151IMS_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

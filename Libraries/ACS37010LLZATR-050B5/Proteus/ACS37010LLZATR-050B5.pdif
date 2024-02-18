@@ -1,0 +1,140 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ACS37010LLZATR-050B5"
+   (description "450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package")
+   (family "ANA")
+   (package "ACS37010LLZATR050B5")
+   (attribute "Datasheet Link" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet")
+   (attribute "Geometry.Height" "1.82mm")
+   (attribute "Mouser Part Number" "250-37010LLZATR050B5")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37010LLZATR-050B5?qs=xZFQr2mActdw3y4eMiX2Bg%3D%3D")
+   (attribute "Manufacturer_Name" "Allegro Microsystems")
+   (attribute "Manufacturer_Part_Number" "ACS37010LLZATR-050B5")
+   (gate
+    (symbol "ACS37010LLZATR-050B5")
+    (pin "IP+" 1 PS)
+    (pin "IP-" 4 PS)
+    (pin "GND" 5 PS)
+    (pin "VREF" 6 PS)
+    (pin "VOUT" 7 PS)
+    (pin "VDD" 8 PS)
+   )
+  )
+  (symbol "ACS37010LLZATR-050B5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ACS37010LLZATR050B5"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.445 1.95)
+      (pt 2.445 1.95)
+      (pt 2.445 -1.95)
+      (pt -2.445 -1.95)
+      (pt -2.445 1.95))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.445 4.68)
+      (pt 3.445 4.68)
+      (pt 3.445 -4.68)
+      (pt -3.445 -4.68)
+      (pt -3.445 4.68))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.27 4.1)
+      (arc (pt 1.270 4.100) (pt 1.220 4.100) (pt 1.320 4.200) (start 180.0) (sweep -90.0))
+      (pt 1.27 4.2)
+      (arc (pt 1.270 4.200) (pt 1.220 4.100) (pt 1.320 4.200) (start 180.0) (sweep 90.0))
+      (pt 1.27 4.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.445 1.8)
+      (pt -2.445 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.445 1.8)
+      (pt 2.445 -1.8))))
+   (leg 1 (pt 1.270 2.890) (padstack 1))
+   (leg 4 (pt -1.270 2.890) (padstack 2))
+   (leg 5 (pt -1.905 -2.890) (padstack 0))
+   (leg 6 (pt -0.635 -2.890) (padstack 0))
+   (leg 7 (pt 0.635 -2.890) (padstack 0))
+   (leg 8 (pt 1.905 -2.890) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.650 1.580 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 1.580 1.920 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.580 1.920 0 0 0.000))
+   )
+   (model "ACS37010LLZATR-050B5.stp"
+    (euler 0 0 180)
+    (offset 0 0 0.9700000286102295)
+   )
+  )
+ )
+)

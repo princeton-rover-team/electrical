@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/17575913/1320512/2.50/6/2/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r158_65" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="25.590551181102" height="62.204724409448" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="33.464566929133" height="70.078740157479" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="25.590551181102" height="62.204724409448" />
+  </padstyle>
+  <padstyle name="r192_158" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="62.204724409448" height="75.590551181101" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="70.078740157479" height="83.464566929133" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="62.204724409448" height="75.590551181101" />
+  </padstyle>
+  <footprint name="ACS37010LLZATR050B5" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r192_158" originx="49.999999999999" originy="113.77952755905" rotation="90" />
+    <pcbpin number="2" name="4" style="r192_158" originx="-49.999999999999" originy="113.77952755905" rotation="90" />
+    <pcbpin number="3" name="5" style="r158_65" originx="-74.999999999999" originy="-113.77952755905" rotation="0" />
+    <pcbpin number="4" name="6" style="r158_65" originx="-25" originy="-113.77952755905" rotation="0" />
+    <pcbpin number="5" name="7" style="r158_65" originx="25" originy="-113.77952755905" rotation="0" />
+    <pcbpin number="6" name="8" style="r158_65" originx="74.999999999999" originy="-113.77952755905" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-96.259842519684" originy="76.771653543306" endx="96.259842519684" endy="76.771653543306" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="96.259842519684" originy="76.771653543306" endx="96.259842519684" endy="-76.771653543306" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="96.259842519684" originy="-76.771653543306" endx="-96.259842519684" endy="-76.771653543306" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-96.259842519684" originy="-76.771653543306" endx="-96.259842519684" endy="76.771653543306" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-135.62992125984" originy="184.25196850393" endx="135.62992125984" endy="184.25196850393" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="135.62992125984" originy="184.25196850393" endx="135.62992125984" endy="-184.25196850393" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="135.62992125984" originy="-184.25196850393" endx="-135.62992125984" endy="-184.25196850393" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-135.62992125984" originy="-184.25196850393" endx="-135.62992125984" endy="184.25196850393" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="49.999999999999" originy="161.41732283464" endx="49.999999999999" endy="161.41732283464" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="49.999999999999" originy="163.38582677165" startangle="-90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="49.999999999999" originy="165.35433070866" endx="49.999999999999" endy="165.35433070866" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="49.999999999999" originy="163.38582677165" startangle="90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-96.259842519684" originy="70.866141732283" endx="-96.259842519684" endy="-70.866141732283" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="96.259842519684" originy="70.866141732283" endx="96.259842519684" endy="-70.866141732283" width="7.8740157480314" />
+  </footprint>
+  <symbol name="ACS37010LLZATR-050B5" originx="0" originy="0">
+    <line originx="200" originy="100" endx="900" endy="100" width="0" />
+    <line originx="900" originy="-400" endx="900" endy="100" width="0" />
+    <line originx="900" originy="-400" endx="200" endy="-400" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-400" width="0" />
+    <sympin number="1" originx="900" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="870" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="IP+" />
+      <text name="pindes" originx="960" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="4" originx="900" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="870" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="IP-" />
+      <text name="pindes" originx="960" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="5" />
+    </sympin>
+    <sympin number="6" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VREF" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="6" />
+    </sympin>
+    <sympin number="7" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VOUT" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="7" />
+    </sympin>
+    <sympin number="8" originx="200" originy="-300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VDD" />
+      <text name="pindes" originx="140" originy="-280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="8" />
+    </sympin>
+  </symbol>
+  <component name="ACS37010LLZATR-050B5" designatorprefix="IC" height="71.653543307086" footprint="ACS37010LLZATR050B5">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="IP+" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="IP-" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VREF" />
+    <comppin designator="7" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VOUT" />
+    <comppin designator="8" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VDD" />
+    <attached_symbol gate="1" name="ACS37010LLZATR-050B5" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="4" footprintpin="2" />
+    <pinmap designator="5" footprintpin="3" />
+    <pinmap designator="6" footprintpin="4" />
+    <pinmap designator="7" footprintpin="5" />
+    <pinmap designator="8" footprintpin="6" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="250-37010LLZATR050B5" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37010LLZATR-050B5?qs=xZFQr2mActdw3y4eMiX2Bg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Allegro Microsystems" />
+    <text name="Manufacturer_Part_Number" originx="950" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="ACS37010LLZATR-050B5" />
+  </component>
+</quadcept_library>

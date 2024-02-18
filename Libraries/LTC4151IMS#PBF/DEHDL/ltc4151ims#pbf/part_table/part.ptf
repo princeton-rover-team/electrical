@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC4151IMS#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC4151IMS#PBF" (!) = "", "SOP50P490X110-10N", "Small Outline Packages", "584-LTC4151IMS#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4151IMSPBF?qs=hVkxg5c3xu%2F2n6Fpk%2FlWrA%3D%3D", "Linear Technology LTC4151IMS#PBF, Dual Voltage Detector, 7  80 V, 10-Pin MSOP", "http://www.linear.com/docs/26089", "1.1 mm"
+END_PART
+
+END.
