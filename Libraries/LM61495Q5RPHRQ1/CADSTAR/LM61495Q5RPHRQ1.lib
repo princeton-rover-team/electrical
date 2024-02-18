@@ -1,0 +1,16 @@
+.LM61495Q5RPHRQ1 :1 ;10-A automotive buck converter optimized for power density and low EMI
+LM61495Q5RPHRQ1
+*STM IC
+*NGS
+*PLB 1="PGND2_1" 2="VIN2" 3="RBOOT" 4="CBOOT" 5="BIAS" 6="VCC_1" 7="FB" 8="AGND" 9="RT" 10="'RESET_1'" 11="SPSP" 12="SYNC/ MODE" 13="EN" 14="VIN1" 15="PGND1_1" 16="SW" 17="PGND2_2" 18="VCC_2" 19="'RESET_2'" 20="PGND1_2"
+*MXP 20
+*DFN LM61495Q5RPHRQ1
+~!Mouser Part Number (595-LM61495Q5RPHRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM61495Q5RPHRQ1?qs=iLbezkQI%252Bsg%252BjFWzFFwvSw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM61495Q5RPHRQ1)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/lm61495-q1.pdf?utm_campaign=myTI-newsletter-2021-04-06.html&utm_content=LM61495-Q1_newproduct_04_05_2021&utm_medium=email&utm_source=Eloqua&ts=1617703610128)
+~!Height (1mm)
+~!3D_Model (LM61495Q5RPHRQ1)
+LM61495Q5RPHRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 
