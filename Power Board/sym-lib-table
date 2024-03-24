@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTC4372")(type "KiCad")(uri "/Users/jowallace/Documents/University Rover Challenge/electrical/Libraries/LTC4372.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC1863")(type "KiCad")(uri "/Users/jowallace/Documents/University Rover Challenge/electrical/Libraries/LTC1863.kicad_sym")(options "")(descr ""))
+  (lib (name "ADR395")(type "KiCad")(uri "/Users/jowallace/Documents/University Rover Challenge/electrical/Libraries/ADR395.kicad_sym")(options "")(descr ""))
+  (lib (name "THN 10-4815WIR")(type "KiCad")(uri "/Users/jowallace/Documents/University Rover Challenge/electrical/Libraries/THN 10-4815WIR.kicad_sym")(options "")(descr ""))
+)
