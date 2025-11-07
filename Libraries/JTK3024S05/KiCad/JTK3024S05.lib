@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model JTK3024S05
+#/632215/1788006/2.50/6/4/Power Supply
+DEF JTK3024S05 PS 0 30 Y Y 1 F N
+F0 "PS" 1450 300 50 H V L CNN
+F1 "JTK3024S05" 1450 200 50 H V L CNN
+F2 "JTK3024S05" 1450 100 50 H I L CNN
+F3 "https://www.xppower.com/Portals/0/pdfs/SF_JTK30.pdf" 1450 0 50 H I L CNN
+F4 "Isolated DC/DC Converters DC-DC CONV, 30W, 4:1 INPUT, 1x1\"" 1450 -100 50 H I L CNN "Description"
+F5 "11.4" 1450 -200 50 H I L CNN "Height"
+F6 "XP POWER" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "JTK3024S05" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "209-JTK3024S05" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/XP-Power/JTK3024S05?qs=w%2Fv1CP2dgqqxIYwZs8wWyg%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X +VIN 1 0 -200 200 R 50 50 0 0 P
+X -VIN 2 0 -100 200 R 50 50 0 0 P
+X REMOTE_ON/OFF 3 0 0 200 R 50 50 0 0 P
+X +VOUT 4 1600 -200 200 L 50 50 0 0 P
+X TRIM 5 1600 -100 200 L 50 50 0 0 P
+X -VOUT 6 1600 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

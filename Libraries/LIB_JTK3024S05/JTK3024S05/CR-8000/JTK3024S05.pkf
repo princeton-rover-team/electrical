@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "JTK3024S05"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "JTK3024S05")
+        (spec "default")
+    )
+)

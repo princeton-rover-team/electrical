@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'JTK3024S05'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XP POWER", "JTK3024S05" (!) = "", "JTK3024S05", "Other", "209-JTK3024S05", "https://www.mouser.co.uk/ProductDetail/XP-Power/JTK3024S05?qs=w%2Fv1CP2dgqqxIYwZs8wWyg%3D%3D", "", "", "Isolated DC/DC Converters DC-DC CONV, 30W, 4:1 INPUT, 1x1"", "https://www.xppower.com/Portals/0/pdfs/SF_JTK30.pdf", "11.4 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.JTK3024S05 :1 ;Isolated DC/DC Converters DC-DC CONV, 30W, 4:1 INPUT, 1x1"
+JTK3024S05
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 3="REMOTE ON/OFF" 4="+VOUT" 5="TRIM" 6="-VOUT"
+*MXP 6
+*DFN JTK3024S05
+~!Manufacturer_Name (XP POWER)
+~!Manufacturer_Part_Number (JTK3024S05)
+~!Mouser Part Number (209-JTK3024S05)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/XP-Power/JTK3024S05?qs=w%2Fv1CP2dgqqxIYwZs8wWyg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.xppower.com/Portals/0/pdfs/SF_JTK30.pdf)
+~!Height (11.4mm)
+~!3D_Model (JTK3024S05)
+JTK3024S05
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

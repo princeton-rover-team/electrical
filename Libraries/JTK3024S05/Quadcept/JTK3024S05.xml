@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/632215/1788006/2.50/6/4/Power Supply/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c185_h120" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="47.244094488188">
+    <padshape layer="TOP" shape="round" width="72.83464566929" height="72.83464566929" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="80.708661417322" height="80.708661417322" />
+    <padshape layer="INNER" shape="round" width="72.83464566929" height="72.83464566929" />
+    <padshape layer="BOTTOM" shape="round" width="72.83464566929" height="72.83464566929" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="80.708661417322" height="80.708661417322" />
+  </padstyle>
+  <footprint name="JTK3024S05" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c185_h120" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c185_h120" originx="-200" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="c185_h120" originx="-499.99999999999" originy="0" rotation="90" />
+    <pcbpin number="4" name="4" style="c185_h120" originx="300" originy="799.99999999999" rotation="90" />
+    <pcbpin number="5" name="5" style="c185_h120" originx="-99.999999999999" originy="799.99999999999" rotation="90" />
+    <pcbpin number="6" name="6" style="c185_h120" originx="-499.99999999999" originy="799.99999999999" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-599.99999999999" originy="899.99999999999" endx="400" endy="899.99999999999" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="400" originy="899.99999999999" endx="400" endy="-99.999999999999" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="400" originy="-99.999999999999" endx="-599.99999999999" endy="-99.999999999999" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-599.99999999999" originy="-99.999999999999" endx="-599.99999999999" endy="899.99999999999" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-599.99999999999" originy="899.99999999999" endx="400" endy="899.99999999999" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="400" originy="899.99999999999" endx="400" endy="-99.999999999999" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="400" originy="-99.999999999999" endx="-599.99999999999" endy="-99.999999999999" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-599.99999999999" originy="-99.999999999999" endx="-599.99999999999" endy="899.99999999999" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-639.37007874015" originy="939.37007874015" endx="439.37007874015" endy="939.37007874015" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="439.37007874015" originy="939.37007874015" endx="439.37007874015" endy="-169.09448818897" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="439.37007874015" originy="-169.09448818897" endx="-639.37007874015" endy="-169.09448818897" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-639.37007874015" originy="-169.09448818897" endx="-639.37007874015" endy="939.37007874015" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="1.9291338582677" originy="-127.71653543307" endx="1.9291338582677" endy="-127.71653543307" width="4.023622047244" />
+    <arc layer="TOP_SILKSCREEN" originx="3.9370078740157" originy="-127.71653543307" startangle="180.0" sweepangle="180.0" radius="2.007874015748" width="4.023622047244" />
+    <line layer="TOP_SILKSCREEN" originx="5.9448818897637" originy="-127.71653543307" endx="5.9448818897637" endy="-127.71653543307" width="4.023622047244" />
+    <arc layer="TOP_SILKSCREEN" originx="3.9370078740157" originy="-127.71653543307" startangle=".0" sweepangle="180.0" radius="2.007874015748" width="4.023622047244" />
+  </footprint>
+  <symbol name="JTK3024S05" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1400" endy="100" width="0" />
+    <line originx="1400" originy="-300" endx="1400" endy="100" width="0" />
+    <line originx="1400" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="+VIN" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="-VIN" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="REMOTE_ON/OFF" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="1400" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1370" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="+VOUT" />
+      <text name="pindes" originx="1460" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="1400" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1370" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="TRIM" />
+      <text name="pindes" originx="1460" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="5" />
+    </sympin>
+    <sympin number="6" originx="1400" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1370" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="-VOUT" />
+      <text name="pindes" originx="1460" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="6" />
+    </sympin>
+  </symbol>
+  <component name="JTK3024S05" designatorprefix="PS" height="448.81889763779" footprint="JTK3024S05">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+VIN" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="-VIN" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="REMOTE_ON/OFF" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+VOUT" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="TRIM" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="-VOUT" />
+    <attached_symbol gate="1" name="JTK3024S05" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <pinmap designator="6" footprintpin="6" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.xppower.com/Portals/0/pdfs/SF_JTK30.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Isolated DC/DC Converters DC-DC CONV, 30W, 4:1 INPUT, 1x1&quot;" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="XP POWER" />
+    <text name="Manufacturer_Part_Number" originx="1450" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="JTK3024S05" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="209-JTK3024S05" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/XP-Power/JTK3024S05?qs=w%2Fv1CP2dgqqxIYwZs8wWyg%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>
