@@ -8,4 +8,5 @@
   (lib (name "ADR3905")(type "KiCad")(uri "/Users/aaryanjagtap/Desktop/Princeton/Clubs/Rover/electrical/Libraries/ADR395BUJZ_R2/KiCADv6/2025-04-16_21-52-22.kicad_sym")(options "")(descr ""))
   (lib (name "THN_10-4815WIR")(type "KiCad")(uri "/Users/aaryanjagtap/Desktop/Princeton/Clubs/Rover/electrical/Libraries/THN_10_4815WIR/THN_10-4815WIR.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ40CA")(type "KiCad")(uri "/Users/aaryanjagtap/Desktop/Princeton/Clubs/Rover/electrical/Libraries/SMBJ40CA/2025-10-06_16-08-59.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-07_01-42-20")(type "KiCad")(uri "/Users/aaryanjagtap/Desktop/Princeton/Clubs/Rover/electrical/Libraries/UVZ2A331MHD/2025-11-07_01-42-20.kicad_sym")(options "")(descr ""))
 )
