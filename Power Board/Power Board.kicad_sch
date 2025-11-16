@@ -735,113 +735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3094,6 +2987,107 @@
 				)
 			)
 			(symbol "GND_8_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_9"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_9_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_9_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -5738,12 +5732,6 @@
 		(uuid "96ae7e5d-4fcf-4352-a0bf-0210fe718f26")
 	)
 	(junction
-		(at 289.56 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "991d7119-3537-4dc1-93c2-b215bbb728de")
-	)
-	(junction
 		(at 48.26 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6139,16 +6127,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 257.81) (xy 106.68 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181912d8-92d3-4d6e-ba11-cc03917fc7cf")
-	)
-	(wire
-		(pts
 			(xy 584.2 27.94) (xy 584.2 21.59)
 		)
 		(stroke
@@ -6446,16 +6424,6 @@
 			(type default)
 		)
 		(uuid "2db7858a-9e3d-47ad-bda6-fa8dc8adeda7")
-	)
-	(wire
-		(pts
-			(xy 72.39 290.83) (xy 71.12 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2de3a10d-8ad2-4de5-b56f-ac67c59da0ee")
 	)
 	(wire
 		(pts
@@ -6929,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 274.32) (xy 31.75 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535627d9-c0d3-418b-b500-8989f1ead52c")
+	)
+	(wire
+		(pts
 			(xy 39.37 34.29) (xy 40.64 34.29)
 		)
 		(stroke
@@ -7276,16 +7254,6 @@
 			(type default)
 		)
 		(uuid "6f05a713-eb3b-4773-9ce7-9ab93aae6aec")
-	)
-	(wire
-		(pts
-			(xy 33.02 274.32) (xy 31.75 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711d0dc6-8f7a-446c-b582-9d5d79932f65")
 	)
 	(wire
 		(pts
@@ -7959,16 +7927,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 290.83) (xy 31.75 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8dbc782-f254-4bbf-94bb-df2649199b39")
-	)
-	(wire
-		(pts
 			(xy 553.72 111.76) (xy 553.72 113.03)
 		)
 		(stroke
@@ -8549,6 +8507,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 290.83) (xy 31.75 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f1aaf4-cc40-4185-8ce9-dad5e8b2ada9")
+	)
+	(wire
+		(pts
 			(xy 429.26 33.02) (xy 439.42 33.02)
 		)
 		(stroke
@@ -8897,16 +8865,6 @@
 		)
 		(uuid "156172b4-e22e-47d4-86f1-f5654099bbeb")
 	)
-	(label "12V_UNREGULATED"
-		(at 33.02 274.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1562e7b9-ae01-49ed-b546-698cb525a1c0")
-	)
 	(label "BATT_IN_12_3"
 		(at 167.64 193.04 180)
 		(effects
@@ -9117,16 +9075,6 @@
 		)
 		(uuid "4b2558a3-3aac-4e1d-8615-006e404227df")
 	)
-	(label "24V_GND"
-		(at 71.12 260.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f39eb41-8915-4789-ad45-84fee39946e6")
-	)
 	(label "ADC_1_CS"
 		(at 608.33 64.77 0)
 		(effects
@@ -9216,6 +9164,16 @@
 			(justify right bottom)
 		)
 		(uuid "73838a50-77a7-4f0b-9f86-bacd728f3510")
+	)
+	(label "12V_UNREGULATED"
+		(at 33.02 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74b796ed-8da3-4a0b-8b75-afb22c67f398")
 	)
 	(label "SHDN"
 		(at 237.49 130.81 0)
@@ -9367,16 +9325,6 @@
 		)
 		(uuid "95866110-4494-466d-a2ed-a136dade08cf")
 	)
-	(label "12V_UNREGULATED"
-		(at 72.39 290.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9664b753-b1f4-4ab4-9c44-e5ca6daad4e9")
-	)
 	(label "BATT_IN_12_3"
 		(at 60.96 97.79 180)
 		(effects
@@ -9507,16 +9455,6 @@
 		)
 		(uuid "af6119d0-c851-46a6-940c-05073f114b87")
 	)
-	(label "12V_UNREGULATED"
-		(at 33.02 290.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4078c4f-6035-4840-b4fb-313f88f5e256")
-	)
 	(label "5V_REG_SD"
 		(at 340.36 177.8 0)
 		(effects
@@ -9546,16 +9484,6 @@
 			(justify right bottom)
 		)
 		(uuid "b7bc762e-f84c-48b1-af1a-137ac209083c")
-	)
-	(label "12V_UNREGULATED"
-		(at 107.95 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba88832c-8b80-4580-831e-a689c3737dc1")
 	)
 	(label "12V_PRESENSE"
 		(at 167.64 121.92 180)
@@ -9616,6 +9544,16 @@
 			(justify left bottom)
 		)
 		(uuid "d0c9b7f0-21cd-469b-a803-80a607f9dfd4")
+	)
+	(label "12V_UNREGULATED"
+		(at 33.02 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d1c47e-34e8-41a1-a436-0e641d96ec73")
 	)
 	(label "12V_PRESENSE"
 		(at 295.91 27.94 180)
@@ -9965,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 64.77 260.35 0)
 			(effects
 				(font
@@ -10969,7 +10907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 603.25 62.23 0)
 			(effects
 				(font
@@ -11385,79 +11323,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7955be-726d-46a1-b0a2-b79689492c0f")
-		(property "Reference" "TP6"
-			(at 127 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 129.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5efb816-60bf-4b4c-89bc-16c3d4c78d72")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12216,6 +12081,74 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 276.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274e8dba-2f78-4176-ace0-6fb6cf79ecd1")
+		(property "Reference" "J_Motor1"
+			(at 26.67 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 26.67 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 26.67 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87329c03-9078-4df4-96ea-b9a8465cd3a2")
+		)
+		(pin "2"
+			(uuid "23fa3751-0db4-48e4-9a9c-c115125fcd49")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "J_Motor1")
 					(unit 1)
 				)
 			)
@@ -13140,74 +13073,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 31.75 293.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3165b5c8-bac2-40a5-8a52-6cd76800f75b")
-		(property "Reference" "#PWR059"
-			(at 38.1 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 293.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c85d050-67e0-497d-b616-1dcb543248f7")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14342,152 +14207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41210d61-aaaf-47c2-9518-90811a810464")
-		(property "Reference" "TP8"
-			(at 127 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 127.5079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 129.54 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3ddb905-04d6-4a2c-ac3f-9e0b2a6fab91")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4149e5db-76e9-40c1-ae2f-7ae3244e98dd")
-		(property "Reference" "TP7"
-			(at 127 93.2179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 95.7579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccdd5ee7-daeb-4486-ad35-16bdf34b6ea9")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_PMOS_GDS")
 		(at 107.95 100.33 90)
 		(unit 1)
@@ -15141,74 +14860,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 31.75 276.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4852afe7-1790-456b-9293-57836e839558")
-		(property "Reference" "#PWR058"
-			(at 38.1 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 276.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4e11e65-f07e-48ed-90e7-f51221141a56")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16079,142 +15730,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 106.68 260.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5831ec5c-22d0-4e57-8cec-02fc64ddb12e")
-		(property "Reference" "#PWR061"
-			(at 113.03 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 260.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86bf5d0f-9ecb-4b2d-ba59-82a92ac89a36")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 66.04 293.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5842dfec-ebe5-4aab-85ac-402ed5a8f63c")
-		(property "Reference" "J_PIX2"
-			(at 66.04 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 66.04 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b489186f-9113-423a-953c-f742739ab7b6")
-		)
-		(pin "2"
-			(uuid "976b88f5-4561-4984-a45f-21536ca7a9a9")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "J_PIX2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 372.11 44.45 90)
 		(unit 1)
@@ -16345,79 +15860,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "J_PERIPHERAL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 289.56 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dc167ed-f02b-40cd-abb4-ac8382959f5e")
-		(property "Reference" "TP9"
-			(at 292.1 171.9579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 292.1 174.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 294.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a144d9be-4b94-4be6-b6db-b7239a194f16")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -17511,79 +16953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71760ecb-ec02-4e1b-a656-68ff1dec35ba")
-		(property "Reference" "TP3"
-			(at 64.77 93.2179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.77 95.7579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 67.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e47cd7d0-a0d2-47fc-912a-923080665485")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 25.4 36.83 180)
 		(unit 1)
@@ -18427,79 +17796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e859cb1-490d-4633-8239-bf7b4062dc72")
-		(property "Reference" "TP1"
-			(at 64.77 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.77 32.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 67.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ef1bd1c-2390-427e-8383-2882c399a950")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 35.56 203.2 270)
@@ -18632,79 +17928,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80b52385-4b7e-40d9-be44-26e4498d3ec7")
-		(property "Reference" "TP4"
-			(at 64.77 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.77 127.5079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1451a42-a16e-4a80-860b-0b1c926e6f0e")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -19163,6 +18386,74 @@
 			(project "4ChannelADC"
 				(path "/7e47086e-f4e4-4a93-973d-3fac8c1eef80"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_9")
+		(lib_id "power:GND")
+		(at 71.12 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "859d71b2-9e8d-44e4-9e54-078ebcb8fd5c")
+		(property "Reference" "#PWR065"
+			(at 77.47 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 260.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f6062ed-810f-48f8-8de5-05a1949687d1")
+		)
+		(instances
+			(project ""
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -20002,6 +19293,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 293.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f882846-8c19-4567-8035-60185d5e515f")
+		(property "Reference" "J_Motor2"
+			(at 26.67 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 26.67 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 26.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0afd6e-9d21-493c-8327-30b30367bd1c")
+		)
+		(pin "2"
+			(uuid "e8f5048b-cd76-4b9b-a543-a49cca2ea2ca")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "J_Motor2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 408.94 189.23 0)
 		(unit 1)
@@ -20272,74 +19631,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 71.12 293.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92722a4f-055a-4c0a-91cc-47f6a8fe07bc")
-		(property "Reference" "#PWR060"
-			(at 77.47 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 293.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "404fcec7-119d-4503-9a63-d25f06a4f5d8")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 572.77 151.13 180)
 		(unit 1)
@@ -20365,7 +19656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 572.77 151.13 0)
 			(effects
 				(font
@@ -21499,152 +20790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acaad0ec-9a5e-487c-94b7-4789d6a5e7bf")
-		(property "Reference" "TP5"
-			(at 127 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 32.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdbfb53e-78ba-466f-bff1-7587521ebadd")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adc14f9e-51ba-489e-aea8-5fb80bbe1c62")
-		(property "Reference" "TP2"
-			(at 64.77 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.77 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 67.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eba88b0c-b36f-4b20-ab2e-0a3a01265b6b")
-		)
-		(instances
-			(project "Battery_Monitor_1.2"
-				(path "/01e86922-b74d-4f96-abca-f4b6cf76abf4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 303.53 156.21 0)
 		(unit 1)
@@ -22437,74 +21582,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 276.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b863466d-65fd-4169-93f6-4f9cbe6243cb")
-		(property "Reference" "J_JETSON1"
-			(at 26.67 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 26.67 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ca9fd0-4326-4f5b-86c9-0e155d3117df")
-		)
-		(pin "2"
-			(uuid "bbe78d63-90a5-4f9b-9912-0d0640f4aab8")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "J_JETSON1")
 					(unit 1)
 				)
 			)
@@ -23972,6 +23049,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 31.75 293.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d54f39e6-e25d-48d3-bc46-5c8f40a3458b")
+		(property "Reference" "#PWR059"
+			(at 38.1 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 293.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a9e186-ee98-48f4-877d-7493128ea1c9")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 87.63 132.08 180)
 		(unit 1)
@@ -24261,74 +23406,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 293.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d88f328d-ef8c-4ab7-83d7-c0958a805df2")
-		(property "Reference" "J_SERVO1"
-			(at 26.67 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 26.67 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98582117-b30e-4af0-bf5f-7ab7f08b22ab")
-		)
-		(pin "2"
-			(uuid "2179421e-2ef7-4f12-a7a6-564150bd703e")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "J_SERVO1")
 					(unit 1)
 				)
 			)
@@ -26190,74 +25267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 101.6 260.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fef65b71-17f5-4fd4-a6aa-22d068387bac")
-		(property "Reference" "J_PIX1"
-			(at 101.6 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 101.6 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "939bb9ac-d96c-4b90-9fbc-ae8a85b15eb4")
-		)
-		(pin "2"
-			(uuid "806cacbf-6deb-46b4-b5bb-c16aa50be711")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "J_PIX1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LTC4372:LTC4372CDD-PBF")
 		(at 306.07 128.27 0)
 		(unit 1)
@@ -26343,6 +25352,74 @@
 			(project ""
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 31.75 276.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd50f5a-7854-4476-b95f-aee11203ff84")
+		(property "Reference" "#PWR058"
+			(at 38.1 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 276.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4217f7e7-a342-4f60-af91-1ceb4d086869")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
