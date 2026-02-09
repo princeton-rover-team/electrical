@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TEN_50_2411WI'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Traco Power", "TEN 50-2411WI" (!) = "", "TEN502411WI", "Other", "495-TEN50-2411WI", "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-50-2411WI?qs=ckJk83FOD0X9tzvZCD0OJQ%3D%3D", "50 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2" x 1" metal package", "https://tracopower.com/ten50wi-datasheet/", "11.25 mm"
+END_PART
+
+END.

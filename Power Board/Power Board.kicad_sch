@@ -5693,6 +5693,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TEN_50-2411WI:TEN_50-2411WI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 39.37 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TEN_50-2411WI"
+				(at 39.37 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TEN502411WI"
+				(at 39.37 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://tracopower.com/ten50wi-datasheet/"
+				(at 39.37 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "50 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2\" x 1\" metal package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.25"
+				(at 39.37 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "495-TEN50-2411WI"
+				(at 39.37 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-50-2411WI?qs=ckJk83FOD0X9tzvZCD0OJQ%3D%3D"
+				(at 39.37 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Traco Power"
+				(at 39.37 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TEN 50-2411WI"
+				(at 39.37 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TEN_50-2411WI_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 38.1 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "REMOTE_ON/OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-VIN_(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+VIN_(VCC)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "TRIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "THN_10-4815WIR:THN_10-4815WIR"
 			(pin_names
 				(offset 1.016)
@@ -12018,16 +12242,6 @@
 		)
 		(uuid "031091f6-8cf3-491d-95af-d21ce1e69722")
 	)
-	(label "SCL"
-		(at 54.61 260.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "037e45cb-76fa-48e3-a85e-1945546ffb42")
-	)
 	(label "THERM_7"
 		(at 444.5 179.07 0)
 		(effects
@@ -13077,6 +13291,16 @@
 			(justify right bottom)
 		)
 		(uuid "ca71413f-d72e-4b21-bee0-a86be756407d")
+	)
+	(label "SCL"
+		(at 67.31 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae2f68e-3c81-4f55-830a-b7a0403093b5")
 	)
 	(label "24V_UNREGULATED"
 		(at 292.1 179.07 180)
@@ -16183,7 +16407,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 67.31 257.81 90)
+		(at 67.31 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16192,7 +16416,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a1a438c-3472-4b43-8312-73f60d8deb4c")
 		(property "Reference" "#PWR0106"
-			(at 73.66 257.81 0)
+			(at 73.66 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +16425,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 71.12 257.8099 90)
+			(at 71.12 260.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +16434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 257.81 0)
+			(at 67.31 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16219,7 +16443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 257.81 0)
+			(at 67.31 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +16452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 67.31 257.81 0)
+			(at 67.31 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16464,7 @@
 			(uuid "29ea1a03-5d00-4843-9c86-5e5218950006")
 		)
 		(instances
-			(project ""
+			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR0106")
 					(unit 1)
@@ -27173,6 +27397,138 @@
 		)
 	)
 	(symbol
+		(lib_id "TEN_50-2411WI:TEN_50-2411WI")
+		(at 90.17 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92473b77-2c0d-4d8f-b843-a6be264d95c1")
+		(property "Reference" "PS3"
+			(at 111.76 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEN_50-2411WI"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TEN502411WI"
+			(at 129.54 357.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tracopower.com/ten50wi-datasheet/"
+			(at 129.54 457.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "50 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2\" x 1\" metal package"
+			(at 90.17 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.25"
+			(at 129.54 657.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "495-TEN50-2411WI"
+			(at 129.54 757.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-50-2411WI?qs=ckJk83FOD0X9tzvZCD0OJQ%3D%3D"
+			(at 129.54 857.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Traco Power"
+			(at 129.54 957.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEN 50-2411WI"
+			(at 129.54 1057.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939adb13-c476-42e4-92a4-e1f6bb6f7b13")
+		)
+		(pin "6"
+			(uuid "13ff3e81-a9eb-4546-8eb7-291d37707ed5")
+		)
+		(pin "2"
+			(uuid "06db763f-dfe6-446b-a039-5888373f96b5")
+		)
+		(pin "3"
+			(uuid "ee825851-2e1c-4804-9120-ae7aab4b41d9")
+		)
+		(pin "5"
+			(uuid "d4782df2-7037-4ea9-9137-70b7734d5928")
+		)
+		(pin "4"
+			(uuid "c08b76e5-fdf7-4a23-9f82-ad3fb1f8c9db")
+		)
+		(instances
+			(project ""
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "PS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GDS")
 		(at 107.95 100.33 90)
 		(unit 1)
@@ -27378,16 +27734,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 67.31 260.35 90)
+		(at 54.61 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97fcb7d3-0213-403e-a77f-8ca3972aaa8d")
 		(property "Reference" "#PWR0105"
-			(at 73.66 260.35 0)
+			(at 54.61 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27396,16 +27751,16 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 71.12 260.3499 90)
+			(at 48.514 260.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 260.35 0)
+			(at 54.61 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27414,7 +27769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 260.35 0)
+			(at 54.61 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27423,7 +27778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 67.31 260.35 0)
+			(at 54.61 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27435,7 +27790,7 @@
 			(uuid "3d775db9-991f-44b8-acfe-7239746f9077")
 		)
 		(instances
-			(project ""
+			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR0105")
 					(unit 1)

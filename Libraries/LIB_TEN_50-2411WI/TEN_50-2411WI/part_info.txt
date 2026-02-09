@@ -1,0 +1,9 @@
+Manufacturer=Traco Power
+PartNumber=TEN 50-2411WI
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=6
+Version=6.1
+Released=2021-02-05 16:08:16
+Downloaded=2026-02-09 14:02:19
+3D=Y
