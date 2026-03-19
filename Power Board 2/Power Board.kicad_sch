@@ -7717,6 +7717,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 389.89) (xy 77.47 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0766fc8b-efd1-41aa-b449-7cc13465499b")
+	)
+	(wire
+		(pts
 			(xy 440.69 85.09) (xy 453.39 85.09)
 		)
 		(stroke
@@ -7907,6 +7917,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 454.66) (xy 53.34 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10483e9f-9ff7-4b4f-983f-5339b99c5d19")
+	)
+	(wire
+		(pts
 			(xy 167.64 144.78) (xy 167.64 147.32)
 		)
 		(stroke
@@ -7944,6 +7964,16 @@
 			(type default)
 		)
 		(uuid "13bec06c-2e84-4cb8-9ccd-f7bffb8de060")
+	)
+	(wire
+		(pts
+			(xy 26.67 389.89) (xy 26.67 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13dd282b-86e7-4e5a-a5b0-8c655693a585")
 	)
 	(wire
 		(pts
@@ -8044,6 +8074,16 @@
 			(type default)
 		)
 		(uuid "1b8a080b-557d-49b1-9e0f-98b96649eef4")
+	)
+	(wire
+		(pts
+			(xy 53.34 407.67) (xy 53.34 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9b90a4-4061-4147-8ff0-92e771d5a4a9")
 	)
 	(wire
 		(pts
@@ -8827,6 +8867,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 389.89) (xy 53.34 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a716efd-4315-4f47-b10c-7353d817c5d6")
+	)
+	(wire
+		(pts
 			(xy 518.16 161.29) (xy 530.86 161.29)
 		)
 		(stroke
@@ -8834,6 +8884,16 @@
 			(type default)
 		)
 		(uuid "4cea74fc-92c6-4b08-9536-59ec33eb0383")
+	)
+	(wire
+		(pts
+			(xy 101.6 431.8) (xy 101.6 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf001bc-b7a7-45f2-8b50-56d08e46731d")
 	)
 	(wire
 		(pts
@@ -9104,6 +9164,16 @@
 			(type default)
 		)
 		(uuid "571f3e04-e6f8-4aa5-8aaf-2ff178f51909")
+	)
+	(wire
+		(pts
+			(xy 101.6 389.89) (xy 101.6 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5723d698-6cc6-4875-b1a8-dcf5bd57e6dc")
 	)
 	(wire
 		(pts
@@ -9474,6 +9544,16 @@
 			(type default)
 		)
 		(uuid "6d8053bd-592d-4ec7-a9b3-082dc28e0727")
+	)
+	(wire
+		(pts
+			(xy 26.67 431.8) (xy 26.67 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df1edd5-e735-4a8e-9a13-63d497c85432")
 	)
 	(wire
 		(pts
@@ -9927,6 +10007,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 431.8) (xy 53.34 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c2ba10-7fb6-4815-ac57-5cca19afc137")
+	)
+	(wire
+		(pts
 			(xy 608.33 148.59) (xy 610.87 148.59)
 		)
 		(stroke
@@ -10207,6 +10297,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 453.39) (xy 26.67 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c852aba-f6b0-4a4a-9f3e-88205235f3f5")
+	)
+	(wire
+		(pts
 			(xy 233.68 133.35) (xy 233.68 130.81)
 		)
 		(stroke
@@ -10224,6 +10324,16 @@
 			(type default)
 		)
 		(uuid "9e2bd15c-331a-476d-a9ea-8aa319db349f")
+	)
+	(wire
+		(pts
+			(xy 80.01 454.66) (xy 80.01 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e482742-bf75-45c9-b9ef-878925c77da8")
 	)
 	(wire
 		(pts
@@ -10504,6 +10614,16 @@
 			(type default)
 		)
 		(uuid "abd06ee0-01a2-4b09-a223-1af14df95989")
+	)
+	(wire
+		(pts
+			(xy 26.67 407.67) (xy 26.67 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe45b5d-81ca-47be-b0a2-6f5565af0de6")
 	)
 	(wire
 		(pts
@@ -11367,6 +11487,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 407.67) (xy 77.47 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71412a5-89dc-4a46-bcfc-6e3dab12e213")
+	)
+	(wire
+		(pts
 			(xy 167.64 74.93) (xy 181.61 74.93)
 		)
 		(stroke
@@ -11947,6 +12077,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 431.8) (xy 77.47 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c99d1f-923c-45cf-be84-a820a697a98c")
+	)
+	(wire
+		(pts
 			(xy 405.13 176.53) (xy 408.94 176.53)
 		)
 		(stroke
@@ -12215,6 +12355,16 @@
 		)
 		(uuid "096f7c2d-6d8d-4f74-ba80-3c283ad2cf00")
 	)
+	(label "BATT_1"
+		(at 26.67 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a07f954-5857-47ec-b7c8-a28901737345")
+	)
 	(label "ADC_1_CS"
 		(at 544.83 27.94 180)
 		(effects
@@ -12424,6 +12574,16 @@
 			(justify left bottom)
 		)
 		(uuid "2a8056e4-d62c-4d4a-8f0d-f719b4ac1654")
+	)
+	(label "BATT_7"
+		(at 77.47 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bec1cb4-86e6-4631-9482-7fb35d079839")
 	)
 	(label "5V_REGULATED"
 		(at 408.94 154.94 0)
@@ -12674,6 +12834,16 @@
 			(justify left bottom)
 		)
 		(uuid "6962cfd2-1f22-4aab-8488-d6d2e682de88")
+	)
+	(label "BATT_5"
+		(at 26.67 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b6c2b82-2d5a-4004-873c-d32b5d702a32")
 	)
 	(label "24V_PSO"
 		(at 123.19 129.54 180)
@@ -12945,6 +13115,16 @@
 		)
 		(uuid "99f4c14d-a582-46d8-8942-8a2668e929c9")
 	)
+	(label "BATT_2"
+		(at 53.34 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a772393-5cd4-4af8-9d06-ff3cb25d6f8e")
+	)
 	(label "BATT_IN_12_6"
 		(at 123.19 66.04 180)
 		(effects
@@ -13094,6 +13274,16 @@
 			(justify right bottom)
 		)
 		(uuid "af6119d0-c851-46a6-940c-05073f114b87")
+	)
+	(label "BATT_3"
+		(at 77.47 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4cc4113-5e0a-4280-b9a9-30beede5492d")
 	)
 	(label "5V_REGULATED"
 		(at 180.34 229.87 0)
@@ -13425,6 +13615,16 @@
 		)
 		(uuid "f8d56e14-3829-4a82-a285-2fa203c4466e")
 	)
+	(label "BATT_6"
+		(at 53.34 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faae9058-8798-4c65-b61b-2c321dd41699")
+	)
 	(label "BATT_2"
 		(at 166.37 302.26 180)
 		(effects
@@ -13475,6 +13675,16 @@
 		)
 		(uuid "fdd906ae-52b4-4289-957e-c285a1954a84")
 	)
+	(label "BATT_4"
+		(at 101.6 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fddda6ef-2893-4e5a-bab1-73929fc84254")
+	)
 	(label "24V_PSO"
 		(at 292.1 176.53 180)
 		(effects
@@ -13484,6 +13694,73 @@
 			(justify right bottom)
 		)
 		(uuid "fe84110c-ae80-495c-ba5c-8d6b3cdf445d")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00314f30-29bf-4827-86e5-3cc0f6be3dd8")
+		(property "Reference" "H12"
+			(at 29.21 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 29.21 402.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 26.67 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e9cd70-af0f-4c7a-9861-5c2b2966166a")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -14039,6 +14316,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 448.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d465f6-02c8-4014-9034-37c886acf334")
+		(property "Reference" "H22"
+			(at 29.21 445.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 29.21 448.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 26.67 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6db2d792-6387-4eea-8cd7-808e5abaef99")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 515.62 24.13 90)
 		(unit 1)
@@ -14558,7 +14902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 53.34 340.36 0)
 			(effects
 				(font
@@ -14799,6 +15143,73 @@
 			(project ""
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf26bc2-a468-4572-b16f-eaffaf691054")
+		(property "Reference" "H23"
+			(at 55.88 447.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 449.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 53.34 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9f1900a-84d0-45fa-976d-128e457d4ef6")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H23")
 					(unit 1)
 				)
 			)
@@ -16696,6 +17107,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 80.01 454.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a650701-a34c-4551-9a0a-9a4f2b2d0a21")
+		(property "Reference" "#PWR0127"
+			(at 80.01 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "598a5f9a-5539-45bd-b9af-d3b7b43dfb78")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 45.72 109.22 0)
 		(unit 1)
@@ -17138,6 +17616,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "RA12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 77.47 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a28cdd-0dcb-4fd4-8e9d-ad1b1c3d6e99")
+		(property "Reference" "#PWR0123"
+			(at 77.47 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d032001e-fff9-4709-8369-603dc5f14733")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -17647,6 +18192,73 @@
 	(symbol
 		(lib_name "GND_22")
 		(lib_id "power:GND")
+		(at 26.67 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2733ec1f-d760-4795-8520-0b40de798125")
+		(property "Reference" "#PWR0121"
+			(at 26.67 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b3bb6c-e7bd-4ed1-9fa7-5870dc3d52d7")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
 		(at 53.34 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17776,6 +18388,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 53.34 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "289fc695-516d-4b49-8efc-6d0bfefc95d7")
+		(property "Reference" "#PWR0122"
+			(at 53.34 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c126cb-3e9a-4c84-aafb-c956cbcb9921")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -19471,6 +20150,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 26.67 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38144aac-a17e-4792-9f76-637c80780a7a")
+		(property "Reference" "#PWR0125"
+			(at 26.67 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b37e383a-0dae-414b-bb5f-100475a233ef")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 612.14 83.82 0)
 		(unit 1)
@@ -19991,7 +20737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 101.6 322.58 0)
 			(effects
 				(font
@@ -20605,7 +21351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 53.34 356.87 0)
 			(effects
 				(font
@@ -22161,6 +22907,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 101.6 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d5ebb7-3920-4795-aee8-ab876a4dd60e")
+		(property "Reference" "#PWR0124"
+			(at 101.6 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2b96e4-1a7f-46d5-9555-7fc92fffc436")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 632.46 38.1 90)
 		(unit 1)
@@ -23484,6 +24297,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 101.6 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6509752c-d9bc-4e55-8c60-1c6b2a5fbbae")
+		(property "Reference" "H19"
+			(at 104.14 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 104.14 384.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 101.6 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4fdbda4-c26e-4f66-a823-8fec20832088")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 584.2 50.8 180)
@@ -23545,6 +24425,207 @@
 			(project ""
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 101.6 426.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d4fe6b-7955-44b5-a26c-b2fc1b4a7720")
+		(property "Reference" "H21"
+			(at 104.14 424.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 104.14 426.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 101.6 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a359c2a6-1733-4e3d-a000-724862659898")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66dd67ad-eb7f-42cc-ab78-7036db46e6f5")
+		(property "Reference" "H14"
+			(at 55.88 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 384.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 53.34 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f074fa8-50f9-4950-8ce4-f8510a783523")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_22")
+		(lib_id "power:GND")
+		(at 53.34 454.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66e70d8b-7b4f-4dc3-aa70-a679286c913d")
+		(property "Reference" "#PWR0126"
+			(at 53.34 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcb666aa-01da-44c2-8ea8-3e969730f54d")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -24147,7 +25228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 26.67 356.87 0)
 			(effects
 				(font
@@ -24420,7 +25501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 26.67 340.36 0)
 			(effects
 				(font
@@ -25512,6 +26593,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "RT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b307900-46a0-4980-a819-73df0490b0f3")
+		(property "Reference" "H11"
+			(at 29.21 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 29.21 384.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 26.67 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "100f8155-5848-48f4-874e-78a0bf24ef2e")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -27521,6 +28669,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a56def2-77e7-4679-8d26-5c9e0427ea2f")
+		(property "Reference" "H17"
+			(at 80.01 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 384.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 77.47 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 77.47 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e7571c-3527-484f-8b1e-9fe0c9633067")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 585.47 142.24 0)
 		(unit 1)
@@ -27705,7 +28920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 77.47 322.58 0)
 			(effects
 				(font
@@ -29825,6 +31040,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 80.01 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a67109ad-ca74-42ea-9ed0-af6a65a7a2b0")
+		(property "Reference" "H24"
+			(at 82.55 447.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 82.55 449.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 80.01 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 80.01 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8b7772-16fb-4465-a25e-52a572b76044")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 200.66 0)
 		(unit 1)
@@ -29964,6 +31246,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 426.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7325987-e138-411a-a8b1-6315a2586b87")
+		(property "Reference" "H13"
+			(at 29.21 424.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 29.21 426.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 26.67 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2c487a-c0f6-4fa3-91f6-e3736efbe167")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -32064,7 +33413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 101.6 340.36 0)
 			(effects
 				(font
@@ -32630,6 +33979,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c63fdd26-e2e6-4e73-b42f-303a92e60ccd")
+		(property "Reference" "H18"
+			(at 80.01 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 402.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 77.47 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 77.47 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ff4ca2-ba59-42a9-8476-85f473fe8d77")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 364.49 44.45 270)
 		(unit 1)
@@ -32865,7 +34281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 77.47 340.36 0)
 			(effects
 				(font
@@ -34051,6 +35467,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 426.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82353da-8268-44ec-9256-71e0e1fc5c53")
+		(property "Reference" "H20"
+			(at 80.01 424.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 426.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 77.47 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 77.47 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb9826a-3df0-42bd-8483-bb39129f1778")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LTC4151IMS#PBF:LTC4151IMS#PBF")
 		(at 419.1 53.34 0)
 		(unit 1)
@@ -35103,6 +36586,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 426.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe4aa9f-73ac-4af3-bc43-7cdd4049b661")
+		(property "Reference" "H16"
+			(at 55.88 424.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 426.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 53.34 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d2f5a9-4c8b-4672-b4fe-4d62a61173b3")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -36999,7 +38549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 26.67 322.58 0)
 			(effects
 				(font
@@ -37428,7 +38978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 53.34 322.58 0)
 			(effects
 				(font
@@ -38006,6 +39556,73 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fecf12a2-8bf9-45b5-9d53-1ed029b137c2")
+		(property "Reference" "H15"
+			(at 55.88 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 402.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 53.34 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "822cb4cd-9263-474e-848a-a2d063e8723d")
+		)
+		(instances
+			(project "Power Board"
+				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
+					(reference "H15")
 					(unit 1)
 				)
 			)
