@@ -4857,6 +4857,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -12762,7 +12845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 156.21 0)
 			(effects
 				(font
@@ -12829,7 +12912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 45.4152 0)
 			(effects
 				(font
@@ -12938,7 +13021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 105.41 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12948,7 +13031,7 @@
 		(fields_autoplaced yes)
 		(uuid "07675a9f-7afb-4606-b8e8-416fac4b6b6d")
 		(property "Reference" "H26"
-			(at 107.95 353.0599 0)
+			(at 107.95 354.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +13040,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 107.95 355.5999 0)
+			(at 107.95 356.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +13048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 105.41 355.6 0)
 			(effects
 				(font
@@ -12983,7 +13066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 105.41 355.6 0)
 			(effects
 				(font
@@ -12991,9 +13074,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "926a9680-7c07-42b4-a196-0eeae6a70dbf")
 		)
 		(instances
 			(project "Power Board"
@@ -13005,7 +13085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 53.34 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13015,7 +13095,7 @@
 		(fields_autoplaced yes)
 		(uuid "08331d7e-a15e-49a8-97d7-3cafcf035152")
 		(property "Reference" "H6"
-			(at 55.88 337.8199 0)
+			(at 55.88 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13024,7 +13104,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 55.88 340.3599 0)
+			(at 55.88 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13032,7 +13112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 53.34 340.36 0)
 			(effects
 				(font
@@ -13050,7 +13130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 53.34 340.36 0)
 			(effects
 				(font
@@ -13058,9 +13138,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ca97d419-96a9-49e2-95fd-7d3c83e05040")
 		)
 		(instances
 			(project "Power Board"
@@ -13902,73 +13979,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 53.34 359.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "118de203-6332-4e6c-a9df-4fc4073c7c56")
-		(property "Reference" "#PWR0120"
-			(at 53.34 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "077b383e-3f72-4327-b2b3-6c7373066814")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 97.79 97.79 90)
 		(unit 1)
@@ -14066,7 +14076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 139.3952 0)
 			(effects
 				(font
@@ -14412,7 +14422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 332.74 0)
 			(effects
 				(font
@@ -14707,7 +14717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 608.0252 29.21 0)
 			(effects
 				(font
@@ -15690,73 +15700,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 53.34 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "274c0634-c631-477a-ad4e-145510e31737")
-		(property "Reference" "#PWR0112"
-			(at 53.34 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f280dc9-a538-4c01-a693-60d170623556")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -16760,73 +16703,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 26.67 359.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35cce49c-407f-4f30-a9d5-94e865095f6d")
-		(property "Reference" "#PWR0119"
-			(at 26.67 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be9c4bd6-9e81-4fa6-b47e-abf65aaaf295")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 195.58 237.49 0)
 		(unit 1)
@@ -16854,7 +16730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 241.3 0)
 			(effects
 				(font
@@ -16991,7 +16867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 335.28 0)
 			(effects
 				(font
@@ -17327,7 +17203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 228.6 0)
 			(effects
 				(font
@@ -17521,7 +17397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 101.6 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17531,7 +17407,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c58c739-8284-4d2f-b740-5a763ebf9eec")
 		(property "Reference" "H4"
-			(at 104.14 320.0399 0)
+			(at 104.14 321.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17540,7 +17416,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 104.14 322.5799 0)
+			(at 104.14 323.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +17424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 101.6 322.58 0)
 			(effects
 				(font
@@ -17566,7 +17442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 101.6 322.58 0)
 			(effects
 				(font
@@ -17574,9 +17450,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "65a5858a-d77a-4ed9-a325-0c539fb415a3")
 		)
 		(instances
 			(project "Power Board"
@@ -17612,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 139.3952 0)
 			(effects
 				(font
@@ -17884,7 +17757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 596.5952 29.21 0)
 			(effects
 				(font
@@ -17995,7 +17868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 53.34 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18005,7 +17878,7 @@
 		(fields_autoplaced yes)
 		(uuid "416ee1d2-389b-43b4-acbc-04d6dc0a5712")
 		(property "Reference" "H10"
-			(at 55.88 354.3299 0)
+			(at 55.88 355.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18014,7 +17887,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 55.88 356.8699 0)
+			(at 55.88 358.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,7 +17895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 53.34 356.87 0)
 			(effects
 				(font
@@ -18040,7 +17913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 53.34 356.87 0)
 			(effects
 				(font
@@ -18048,9 +17921,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "0f6646a0-0a1f-4072-a8bf-01ef66c474b1")
 		)
 		(instances
 			(project "Power Board"
@@ -18130,7 +18000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 80.01 368.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18140,7 +18010,7 @@
 		(fields_autoplaced yes)
 		(uuid "43c5a1a0-3190-4348-8a4e-bf91f146a2d2")
 		(property "Reference" "H27"
-			(at 82.55 365.7599 0)
+			(at 82.55 367.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18149,7 +18019,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 82.55 368.2999 0)
+			(at 82.55 369.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18157,7 +18027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 80.01 368.3 0)
 			(effects
 				(font
@@ -18175,7 +18045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 80.01 368.3 0)
 			(effects
 				(font
@@ -18183,9 +18053,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1ed115ad-d035-4f32-9b7c-656ea2c24b76")
 		)
 		(instances
 			(project "Power Board"
@@ -18776,7 +18643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 92.4052 0)
 			(effects
 				(font
@@ -19060,7 +18927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 201.93 0)
 			(effects
 				(font
@@ -19609,73 +19476,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 26.67 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59f35aef-3a50-47a3-9c25-981b70a26ad3")
-		(property "Reference" "#PWR0115"
-			(at 26.67 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "634d7e50-a6b7-454a-a234-e2ba7a0ff4d3")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 436.88 85.09 90)
 		(unit 1)
@@ -19979,7 +19779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 241.3 0)
 			(effects
 				(font
@@ -20116,7 +19916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 241.3 0)
 			(effects
 				(font
@@ -20153,73 +19953,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 105.41 358.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60cc2da1-d7cc-474f-a3fa-a0240218f3ff")
-		(property "Reference" "#PWR045"
-			(at 105.41 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "150e500c-68a3-4bd9-85dc-7ff81e8ccdd5")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -21113,7 +20846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 26.67 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21123,7 +20856,7 @@
 		(fields_autoplaced yes)
 		(uuid "69bc772a-8293-46a6-a391-ed858a72bcd2")
 		(property "Reference" "H9"
-			(at 29.21 354.3299 0)
+			(at 29.21 355.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21132,7 +20865,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 29.21 356.8699 0)
+			(at 29.21 358.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +20873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 26.67 356.87 0)
 			(effects
 				(font
@@ -21158,7 +20891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 26.67 356.87 0)
 			(effects
 				(font
@@ -21166,9 +20899,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "d9b4b028-8440-484d-b410-a6fc0f83255d")
 		)
 		(instances
 			(project "Power Board"
@@ -21207,7 +20937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 586.4352 81.28 0)
 			(effects
 				(font
@@ -21277,7 +21007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.4952 156.21 0)
 			(effects
 				(font
@@ -21320,7 +21050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 26.67 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21330,7 +21060,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c704dbb-653c-4bf1-962d-11cf4898bf7b")
 		(property "Reference" "H5"
-			(at 29.21 337.8199 0)
+			(at 29.21 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,7 +21069,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 29.21 340.3599 0)
+			(at 29.21 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,7 +21077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 26.67 340.36 0)
 			(effects
 				(font
@@ -21365,7 +21095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 26.67 340.36 0)
 			(effects
 				(font
@@ -21374,80 +21104,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e0f8e2ea-7602-45bc-bdff-3007dea0dc5e")
-		)
 		(instances
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 77.47 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d957f3d-efac-4bc1-9420-9ca573838d7f")
-		(property "Reference" "#PWR0113"
-			(at 77.47 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6bacb3e-41aa-4fae-b398-09a76bfda4d0")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -21481,7 +21141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 342.5952 241.3 0)
 			(effects
 				(font
@@ -21856,7 +21516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 521.6652 80.01 0)
 			(effects
 				(font
@@ -22520,7 +22180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.9352 335.28 0)
 			(effects
 				(font
@@ -22557,73 +22217,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 101.6 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d6341f4-1dc9-4e45-af87-2f8f9598d3cb")
-		(property "Reference" "#PWR0118"
-			(at 101.6 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "341038e6-7bd4-460e-a069-5e27de0a2bcc")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -23393,7 +22986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 287.02 0)
 			(effects
 				(font
@@ -23530,7 +23123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 590.2452 38.1 0)
 			(effects
 				(font
@@ -24245,7 +23838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 106.68 368.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24255,7 +23848,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c422f40-834e-4b5b-9089-17d4a9420abf")
 		(property "Reference" "H28"
-			(at 109.22 365.7599 0)
+			(at 109.22 367.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24264,7 +23857,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 109.22 368.2999 0)
+			(at 109.22 369.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24272,7 +23865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 106.68 368.3 0)
 			(effects
 				(font
@@ -24290,7 +23883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 106.68 368.3 0)
 			(effects
 				(font
@@ -24298,9 +23891,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5c81df93-f8f3-4349-9e27-85e1330fc1b4")
 		)
 		(instances
 			(project "Power Board"
@@ -24312,7 +23902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 77.47 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24322,7 +23912,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c73ca3b-98f3-4b60-addd-bd21d2fd971a")
 		(property "Reference" "H3"
-			(at 80.01 320.0399 0)
+			(at 80.01 321.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24331,7 +23921,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 80.01 322.5799 0)
+			(at 80.01 323.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24339,7 +23929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 77.47 322.58 0)
 			(effects
 				(font
@@ -24357,7 +23947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 77.47 322.58 0)
 			(effects
 				(font
@@ -24365,9 +23955,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c108d9e0-d85b-4b10-a8bf-1805d5252bfa")
 		)
 		(instances
 			(project "Power Board"
@@ -24406,7 +23993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 564.8452 81.28 0)
 			(effects
 				(font
@@ -24927,73 +24514,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 78.74 358.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "934a24d5-73cf-43fe-96ce-cde7bd084c4d")
-		(property "Reference" "#PWR041"
-			(at 78.74 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f30e56ee-2f3b-4a7d-9512-f337c5ac776e")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GDS")
 		(at 107.95 100.33 90)
 		(unit 1)
@@ -25222,7 +24742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 185.1152 0)
 			(effects
 				(font
@@ -25358,7 +24878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 109.22 0)
 			(effects
 				(font
@@ -25507,7 +25027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 93.6752 0)
 			(effects
 				(font
@@ -25823,73 +25343,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 106.68 370.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c93053-de4e-4c87-8c71-d4ef09991f01")
-		(property "Reference" "#PWR047"
-			(at 106.68 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27b640f9-d38d-41a4-ae84-b069686a2d84")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 35.56 66.04 90)
 		(unit 1)
@@ -26193,7 +25646,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a68e5e86-9d9f-4be0-8552-c64d7c67f602")
 		(property "Reference" "C54"
 			(at 107.95 199.3899 0)
@@ -26213,13 +25665,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.1052 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -26532,7 +25983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 78.74 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26542,7 +25993,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa8fda8a-ef6d-4494-a332-35b695064372")
 		(property "Reference" "H25"
-			(at 81.28 353.0599 0)
+			(at 81.28 354.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26551,7 +26002,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 81.28 355.5999 0)
+			(at 81.28 356.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26559,7 +26010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 78.74 355.6 0)
 			(effects
 				(font
@@ -26577,7 +26028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 78.74 355.6 0)
 			(effects
 				(font
@@ -26585,9 +26036,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "747f94ea-4dea-47e0-8ba8-79a7dce129ba")
 		)
 		(instances
 			(project "Power Board"
@@ -26626,7 +26074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 613.1052 83.82 0)
 			(effects
 				(font
@@ -26895,7 +26343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 352.7552 241.3 0)
 			(effects
 				(font
@@ -27270,73 +26718,6 @@
 			(project "Power Board"
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 101.6 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2df2a60-cd72-48be-afae-ef69ecb35ec1")
-		(property "Reference" "#PWR0114"
-			(at 101.6 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "410866bb-7c37-4368-890a-da2c5f6b1720")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -28017,7 +27398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.9352 287.02 0)
 			(effects
 				(font
@@ -28087,7 +27468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 308.3052 62.23 0)
 			(effects
 				(font
@@ -28266,7 +27647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 101.6 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28276,7 +27657,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdbecbb7-b812-4bc2-af0d-a1b6ac34dadc")
 		(property "Reference" "H8"
-			(at 104.14 337.8199 0)
+			(at 104.14 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28285,7 +27666,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 104.14 340.3599 0)
+			(at 104.14 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28293,7 +27674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 101.6 340.36 0)
 			(effects
 				(font
@@ -28311,7 +27692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 101.6 340.36 0)
 			(effects
 				(font
@@ -28319,9 +27700,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "74a62a1c-953e-4ae7-9126-4346df2d1ccd")
 		)
 		(instances
 			(project "Power Board"
@@ -28859,73 +28237,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 80.01 370.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5de38b8-fbb9-48f6-a934-3ffc5c3907e6")
-		(property "Reference" "#PWR046"
-			(at 80.01 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "648a5d60-fe8d-4159-b476-f229ff60300a")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 77.47 402.59 0)
 		(unit 1)
@@ -29017,7 +28328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 360.68 45.4152 0)
 			(effects
 				(font
@@ -29201,7 +28512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 77.47 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29211,7 +28522,7 @@
 		(fields_autoplaced yes)
 		(uuid "c79dd8d3-622f-4b48-9d1a-a923cfd5cbfa")
 		(property "Reference" "H7"
-			(at 80.01 337.8199 0)
+			(at 80.01 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29220,7 +28531,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 80.01 340.3599 0)
+			(at 80.01 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29228,7 +28539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 77.47 340.36 0)
 			(effects
 				(font
@@ -29246,7 +28557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 77.47 340.36 0)
 			(effects
 				(font
@@ -29254,9 +28565,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c2e1159c-30a1-4242-b02b-b15acd1f30b5")
 		)
 		(instances
 			(project "Power Board"
@@ -29782,7 +29090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 62.23 0)
 			(effects
 				(font
@@ -29927,7 +29235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 522.9352 31.75 0)
 			(effects
 				(font
@@ -30709,7 +30017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.4952 110.49 0)
 			(effects
 				(font
@@ -30779,7 +30087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 287.02 0)
 			(effects
 				(font
@@ -31032,73 +30340,6 @@
 			(project ""
 				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 77.47 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df4e5685-338d-4a47-9e6f-76439d397b8e")
-		(property "Reference" "#PWR0117"
-			(at 77.47 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0668879b-b6fb-4e4b-8434-a0f6cbe85f7d")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -31905,7 +31146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 287.02 0)
 			(effects
 				(font
@@ -32240,7 +31481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.7852 228.6 0)
 			(effects
 				(font
@@ -32378,7 +31619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 332.74 0)
 			(effects
 				(font
@@ -32448,7 +31689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 521.6652 63.5 0)
 			(effects
 				(font
@@ -32767,74 +32008,7 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 53.34 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f25dc201-9d59-4bd5-ada7-0a09af5f8d5a")
-		(property "Reference" "#PWR0116"
-			(at 53.34 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21158a43-2d83-4069-9069-550889ed40fd")
-		)
-		(instances
-			(project "Power Board"
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 26.67 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32844,7 +32018,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2c52044-6a20-4a25-ad52-ad131e86ef2f")
 		(property "Reference" "H1"
-			(at 29.21 320.0399 0)
+			(at 29.21 321.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32853,7 +32027,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 29.21 322.5799 0)
+			(at 29.21 323.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32861,7 +32035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 26.67 322.58 0)
 			(effects
 				(font
@@ -32879,7 +32053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 26.67 322.58 0)
 			(effects
 				(font
@@ -32887,9 +32061,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "2e823308-88bf-48a5-afd2-b043d6874e8c")
 		)
 		(instances
 			(project ""
@@ -33002,7 +32173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.9352 241.3 0)
 			(effects
 				(font
@@ -33045,7 +32216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 53.34 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33055,7 +32226,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5b7a31a-7628-4c58-8a39-1b22edadbc3e")
 		(property "Reference" "H2"
-			(at 55.88 320.0399 0)
+			(at 55.88 321.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33064,7 +32235,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 55.88 322.5799 0)
+			(at 55.88 323.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33072,7 +32243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 53.34 322.58 0)
 			(effects
 				(font
@@ -33090,7 +32261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 53.34 322.58 0)
 			(effects
 				(font
@@ -33098,9 +32269,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "35257283-9355-4714-9211-0c7502330881")
 		)
 		(instances
 			(project "Power Board"
@@ -33321,73 +32489,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_22")
-		(lib_id "power:GND")
-		(at 26.67 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7c13725-4f0e-4c7e-8f85-8e60d6421ebf")
-		(property "Reference" "#PWR0111"
-			(at 26.67 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f1aa761-793f-4896-a1a5-8c32416635fe")
-		)
-		(instances
-			(project ""
-				(path "/52f7cba9-f573-43e9-b6c5-44859a4c1733"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 262.89 307.34 0)
 		(unit 1)
@@ -33547,7 +32648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 521.6652 46.99 0)
 			(effects
 				(font
