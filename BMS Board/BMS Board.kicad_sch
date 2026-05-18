@@ -2596,6 +2596,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -12948,7 +13031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07be313e-8d78-418e-812b-be7b53ec2127")
-		(property "Reference" "J-therm-4s-3"
+		(property "Reference" "J-therm-4S-3"
 			(at 153.035 67.31 0)
 			(effects
 				(font
@@ -13009,7 +13092,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-3")
+					(reference "J-therm-4S-3")
 					(unit 1)
 				)
 			)
@@ -13431,7 +13514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155ef62e-0bda-4bad-bebc-8aaab1d210c6")
-		(property "Reference" "J_I2C_Jetson1"
+		(property "Reference" "J_I2C"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -13489,7 +13572,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J_I2C_Jetson1")
+					(reference "J_I2C")
 					(unit 1)
 				)
 			)
@@ -14006,6 +14089,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 242.57 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e5f55ce-a9f9-417c-8c76-2eb08b1713f6")
+		(property "Reference" "H4"
+			(at 245.11 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 245.11 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS Board"
+				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 215.9 0)
 		(unit 1)
@@ -14083,7 +14230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fbbfcdb-b9f2-4ca1-b99c-f40658b133b7")
-		(property "Reference" "J-therm-4s-7"
+		(property "Reference" "J-therm-4S-7"
 			(at 188.595 67.31 0)
 			(effects
 				(font
@@ -14144,7 +14291,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-7")
+					(reference "J-therm-4S-7")
 					(unit 1)
 				)
 			)
@@ -14854,7 +15001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "297d27ff-c89f-447a-b477-08efad5a499b")
-		(property "Reference" "J-therm-4s-6"
+		(property "Reference" "J-therm-4S-6"
 			(at 188.595 50.8 0)
 			(effects
 				(font
@@ -14915,7 +15062,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-6")
+					(reference "J-therm-4S-6")
 					(unit 1)
 				)
 			)
@@ -16185,7 +16332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35ef287d-1ad4-44a7-a1a5-edd8f4141b30")
-		(property "Reference" "J-therm-4s-4"
+		(property "Reference" "J-therm-4S-4"
 			(at 153.035 83.82 0)
 			(effects
 				(font
@@ -16246,7 +16393,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-4")
+					(reference "J-therm-4S-4")
 					(unit 1)
 				)
 			)
@@ -16879,7 +17026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "412fc63a-1372-48c9-9db8-ed0c93bd3f24")
-		(property "Reference" "J-therm-8s1"
+		(property "Reference" "J-therm-8S-2"
 			(at 188.595 99.06 0)
 			(effects
 				(font
@@ -16940,7 +17087,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-8s1")
+					(reference "J-therm-8S-2")
 					(unit 1)
 				)
 			)
@@ -18109,6 +18256,70 @@
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 220.98 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb5c43b-84f6-40e7-b151-c94de98ec2e8")
+		(property "Reference" "H3"
+			(at 223.52 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 223.52 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS Board"
+				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -21217,7 +21428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e61721a-ded1-4c72-9dc5-fd001f539740")
-		(property "Reference" "J-therm-4s-2"
+		(property "Reference" "J-therm-4S-2"
 			(at 153.035 50.8 0)
 			(effects
 				(font
@@ -21278,7 +21489,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-2")
+					(reference "J-therm-4S-2")
 					(unit 1)
 				)
 			)
@@ -25600,6 +25811,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.31 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d674d7-ad57-4830-83a9-a57980bd9620")
+		(property "Reference" "H2"
+			(at 196.85 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 196.85 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 194.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS Board"
+				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 238.76 210.82 0)
 		(unit 1)
@@ -26691,7 +26966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c843d207-80c6-410d-9bfa-b17f53898a4a")
-		(property "Reference" "J-therm-8s2"
+		(property "Reference" "J-therm-8S-1"
 			(at 188.595 83.82 0)
 			(effects
 				(font
@@ -26752,7 +27027,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-8s2")
+					(reference "J-therm-8S-1")
 					(unit 1)
 				)
 			)
@@ -29835,6 +30110,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 165.1 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d4c1b0-6ecf-4cae-bd1d-f0c688e1b021")
+		(property "Reference" "H1"
+			(at 167.64 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 167.64 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 129.54 176.53 90)
 		(unit 1)
@@ -30118,7 +30457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f580c2d3-61f1-40eb-961b-2ba7ccd236d6")
-		(property "Reference" "J-therm-4s-5"
+		(property "Reference" "J-therm-4S-5"
 			(at 188.595 34.29 0)
 			(effects
 				(font
@@ -30179,7 +30518,7 @@
 		(instances
 			(project "BMS Board"
 				(path "/a57f7fab-6172-446f-9361-69af31cdb407"
-					(reference "J-therm-4s-5")
+					(reference "J-therm-4S-5")
 					(unit 1)
 				)
 			)
